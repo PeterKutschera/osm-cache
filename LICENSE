@@ -1,0 +1,8 @@
+This software is available under a GPLv2 license.
+
+Needed, but not included in this repositry:
+ OpenStreetMap data ( Open Data Commons Open Database License, see http://www.openstreetmap.org/copyright)
+ JQuery (MIT License, see http://jquery.com/)
+ Leaflet (See file LICENCE-Leaflet, see http://leafletjs.com/)
+ downloadosmtiles.pl (Same license as Perl; see http://search.cpan.org/~rotkraut/Geo-OSM-Tiles-0.02/downloadosmtiles.pl)
+

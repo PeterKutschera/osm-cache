@@ -1,0 +1,54 @@
+
+<!--
+/home/peter/public_html/maptest/index.html
+Peter Kutschera, Tue Jun 17 17:38:12 2014$
+$Id$
+Time-stamp: "2014-11-18 13:38:42 peter"
+Peter.Kutschera@ait.ac.at   (AIT - Austrian Institute of Technology)
+Peter@Kutschera.at          (privat)
+http://Peter.Kutschera.at/
+© Peter Kutschera
+-->
+
+<html>
+<head>
+<meta name="Author" content="Peter.Kutschera@ait.ac.at">
+<title>OSM tile cache test</title>
+<script src="jquery-2.1.1.min.js"></script>
+<link rel="stylesheet" href="leaflet-0.7.3/leaflet.css" />
+<script src="leaflet-0.7.3/leaflet.js"></script>
+<script>
+ $(document).ready (function() {
+  var map1 = L.map('map1').setView([40, 16], 2);
+  // OpenStreetMap
+  L.tileLayer('OSM/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map1);
+ });
+</script>
+<style type="text/css">
+ #map1 { height: 380px; }
+ #map2 { height: 380px; }
+</style>
+</head>
+<body>
+<H1><center>
+Map Server Test
+</center></H1>
+<hr>
+<p>
+
+<div id="map1"></div>
+
+
+</p>
+<hr>
+<address>
+Last update: 2014-11-18
+by <a href="mailto:Peter.Kutschera@ait.ac.at">Peter Kutschera</a><br>
+Copyright &#169 Peter Kutschera
+</address>
+
+</body>
+</html>
+
+
+ 
